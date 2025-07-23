@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Performance Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Student Performance Predictor</h2>
+
+    <label for="hours">Daily Study Hours:</label>
+    <input type="number" id="hours">
+
+    <label for="attendance">Attendance (%):</label>
+    <input type="number" id="attendance">
+
+    <label for="assignments">Assignments Submitted:</label>
+    <input type="number" id="assignments">
+
+    <label for="sleep">Sleep Hours:</label>
+    <input type="number" id="sleep">
+
+    <label for="internet">Internet Usage (hrs/day):</label>
+    <input type="number" id="internet">
+
+    <button onclick="predictPerformance()">Predict Performance</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
